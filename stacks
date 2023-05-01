@@ -18,6 +18,7 @@ int main()
 
     cout <<"printing top element "<< s.top()<<endl;
 
+//empty operation
 if(s.empty()){
     cout<<"stack is empty"<<endl;
 }
