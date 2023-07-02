@@ -23,3 +23,6 @@ h1{
 h3{
     color: darkred;
 }
+p a{
+    color: rgba(255, 106, 20, 0.93);
+}
