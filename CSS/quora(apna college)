@@ -24,5 +24,11 @@ h3{
     color: darkred;
 }
 p a{
-    color: rgba(255, 106, 20, 0.93);
+ color: rgb(226, 43, 192);
+}
+p+h3{
+    text-decoration:underline;
+}
+div >input{
+  background-color:darkkhaki;
 }
