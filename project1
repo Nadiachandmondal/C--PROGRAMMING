@@ -171,3 +171,39 @@ default;
 printf("invalid input");
 }
 }
+int  choice;
+     printf("\nWANT TO ORDER MORE?");
+     printf("\nIF YES TYPE 1,IF NO TYPE 2\n ");
+     scanf("%d",&choice);
+     if(choice == 1)
+     {
+       goto L1;
+     }
+     else if(choice == 2)
+     {
+       printf("the bill is :\n");
+     }
+totalamount=total1+total2+total3+total4;
+    gst=(totalamount*5)/100;
+    int finalamount=totalamount+gst;
+    
+    printf("     NAME                        QTY               COST \n ");     
+    printf("___________________________________________________________\n");
+    printf("1)FLAT WHITE                       %d               %d     \n",quantity1,total1);
+    printf("                                                           \n");
+    printf("2)CARAMEL MACCHIATO                %d               %d     \n",quantity2,total2);
+    printf("                                                           \n");
+    printf("3)CAFFE MOCHA/WHITE MOCHA          %d               %d     \n",quantity3,total3);
+    printf("                                                           \n");
+    printf("4)CAFFE LATTE                      %d               %d     \n",quantity4,total4);
+    printf("___________________________________________________________\n");
+    
+    printf("TOTAL AMOUNT                                        %d\n",totalamount);
+    printf("GST                                                 %d\n",gst);
+    printf("FINAL AMOUNT                                        %d\n",finalamount);
+    
+    
+       
+       
+    }
+    
