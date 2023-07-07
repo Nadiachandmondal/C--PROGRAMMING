@@ -24,11 +24,35 @@ h3{
     color: darkred;
 }
 p a{
- color: rgb(226, 43, 192);
+    font-weight: 700;
+ color: rgb(49, 226, 43);
+ background-color: rgb(255, 0, 166);
 }
 p+h3{
     text-decoration:underline;
 }
 div >input{
   background-color:darkkhaki;
+}
+input[type="text"]{
+    color: red;
+}
+input[type="passsword"]{
+    color: green;
+}
+ul ,li ,a{
+    font-weight: 700;
+
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+*{
+    background-color: aqua;
 }
