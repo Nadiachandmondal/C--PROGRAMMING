@@ -1,0 +1,47 @@
+.card{
+    width: 350px;
+    border: 2px solid orangered;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: lightblue;
+}
+img{
+    width: 350px;
+    border-radius: 25px;
+    border: 2px solid blue;
+   
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cat{
+    width: 350px;
+    border-radius: 25px;
+    height: 340px;;
+    border: 2px solid blue;
+}
+h4{
+    text-align: right;
+    color: blue;
+}
+h2{
+    color: blueviolet;
+}
+h1{
+    color: darkorange;
+}
+span{
+    color: blue;}
+    h3{
+        color: brown;
+        font-weight: bolder;
+    }
+    @media(max-width:375px){
+        #pets{
+            flex-wrap: wrap;
+        }
+    }
+  
