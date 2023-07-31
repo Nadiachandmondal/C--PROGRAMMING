@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main(){
+    int arr[]={1,2,4,6,7,8,9,10,12,14,16,18,19,22};
+    int left,right,middle;
+    int number;
+    printf("enter the number thoes number you want to find index possition\n");
+    scanf("%d",&number);
+    
+    left=0;
+    right=13;
+    
+    while(left<=right){
+        middle=(left+right)/2;
+        if(arr[middle]==number){
+            printf("item found at index no %d",middle);
+            return 0;
+        }
+        
+        else if(arr[middle]<number)
+        {
+            left=middle +1;
+        }
+        else
+        {
+            right=middle-1;
+        }
+    }
+   printf("item not found , please check this array");
+        return 0; 
+}
